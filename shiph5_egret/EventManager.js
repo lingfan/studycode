@@ -1,0 +1,42 @@
+
+var EventTypes = function() {
+    function t() {}
+    var e = (__define, t);
+    e.prototype;
+    return t.EVENT_MAIN_UI_FLAG = "1",
+        t.EVENT_MAIL_FALG = "2",
+        t.MAINWORLD_ENTER = "3",
+        t.MAINWORLD_OPEN_CAMPAIGN = "4",
+        t.MAINWORLD_UPDATE_STAGE = "5",
+        t.MAINWORLD_UPDATEPROCESS = "6",
+        t.MAINWORLD_BAKE = "7",
+        t.MAINWORLD_SHOW_CAMPAIGN = "8",
+        t.EVENT_REFRESH_ITEM = "9",
+        t.EVENT_CHOOSE_CAMPAIGN = "10",
+        t.EVENT_REFRESH_PVE_LEVEL_ITEM = "11",
+        t.EVENT_CHOOSE_AREA = "12",
+        t.EVENT_MILITARY_RANK_UPGRADE = "13",
+        t.EVENT_MILITARY_RANK_REWARD = "14",
+        t.EVENT_BATTLE_INFO = "15",
+        t.BATTLE_ACTION_END = "16",
+        t.BATTLE_ACTION_START = "17",
+        t.BATTLE_SHIP_HIT = "18",
+        t.BATTLE_EXCHANGE_BENCH = "19",
+        t.BATTLE_SHIP_HP = "20",
+        t.BATTLE_SKILLBACK_REMOVE = "21",
+        t.SCENE_SWITCH_START = "22",
+        t.ARENA_EXCHANGE = "23",
+        t.ARENA_DATA = "24",
+        t.CAMP_DETECT_TIME_UPDATE = "25",
+        t.CAMP_SHOP_UPDATE = "26",
+        t.PVE_SOME_RES_LOAED = "27",
+        t.PVE_CHOOSE_CAMPAIGN = "28",
+        t.PVE_ATTACK_TIMES_UPDATE = "29",
+        t.ITEM_DATA_UPDATE = "30",
+        t.HOMEUI_REDBALL_STATE_CHANGE = "31",
+        t.ACTIVITY_DATA_UPDATE = "32",
+        t.RED_BALL_UPDATE = "33",
+        t.ENTER_MAINSCENE = "34",
+        t.LOGIN_QQ = "35",
+        t
+}();
